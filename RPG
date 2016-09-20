@@ -1,0 +1,47 @@
+import java.util.Scanner;
+import java.util.Random;
+/**
+ * Write a description of class RPG here.
+ * 
+ * @author Connor
+ * @version 0.1
+ */
+public class funProg
+{
+
+    public static void main()
+    {
+        Scanner choiceInput = new Scanner(System.in);
+        String charName = "";
+        int charClass = 0;
+        int choices = 0;
+        int stats[];
+        String[] inv = {};
+        
+        System.out.println("Hello, what is your character's name?");
+        charName = choiceInput.nextLine();
+        
+        System.out.println("Is "+charName+ " a \n1. Warrior\n2. Mage\n3. Ranger");
+        
+        
+        System.out.println("You are in a tavern. What do you do?");
+        System.out.println("1. Go around and ask if there is any jobs to do.");
+        System.out.println("2. Leave the tavern.");
+        System.out.println("3. Die.");
+        System.out.println("4. Sit there and do nothing.");
+        System.out.println("5. Waste all of your money on \"entertainment.\"");
+        
+        choices = choiceInput.nextInt();
+        
+        switch(choices)
+        {
+            case 1:
+            System.out.println("You go around and end up asking the bartender \"Barkeep, have you have any jobs?\"\n");
+            System.out.println("The barkeep responds, \"Yeah, the guard came by asking if there were any willing men to take out a goblin lair not to far from the village.\"");
+            System.out.println("");
+            System.out.println("\nDo you take the job?");
+            break;
+        }
+    }
+
+}
