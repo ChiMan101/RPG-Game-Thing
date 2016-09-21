@@ -1,8 +1,12 @@
 import java.util.Scanner;
 import java.util.Random;
 /**
- * Write a description of class RPG here.
- * 
+ * This is a very early version of the game
+ * Working Functions: 
+ * WIP Functions: Character Creation, Actual Gameplay, choices, combat
+ *
+ *
+ *
  * @author Connor
  * @version 0.1
  */
